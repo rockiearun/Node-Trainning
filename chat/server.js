@@ -52,7 +52,7 @@ var server = http.createServer(function(request, response) {
   serveStatic(response, cache, absPath);
 });
 
-server.listen(process.env.PORT,process.env.IP, function() {
+server.listen(process.env.PORT, function() {
   console.log("Server listening.");
 });
 

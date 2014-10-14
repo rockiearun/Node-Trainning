@@ -28,7 +28,6 @@ var socket = io.connect("https://node-trainning-c9-rockiearun.c9.io/");
 
 $(document).ready(function() {
   var chatApp = new Chat(socket);
-
   socket.on('nameResult', function(result) {
     var message;
 
