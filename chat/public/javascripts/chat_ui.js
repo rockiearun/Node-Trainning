@@ -24,7 +24,7 @@ function processUserInput(chatApp, socket) {
   $('#send-message').val('');
 }
 
-var socket = io.connect();
+var socket = io.connect("https://node-trainning-c9-rockiearun.c9.io/");
 
 $(document).ready(function() {
   var chatApp = new Chat(socket);
